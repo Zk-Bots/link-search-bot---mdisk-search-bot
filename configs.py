@@ -34,7 +34,7 @@ class Config(object):
     HOME_TEXT = """
 <b>Hey! {}😅,
 
-I'm Mdisk Search Bot.🤖</a>
+I'm Mdisk Search Bot.🤖
 
 I Can Search 🔍 What You Want❗
 
@@ -45,7 +45,7 @@ I Can Search 🔍 What You Want❗
     START_MSG = """
 <b>𝐇𝐞𝐥𝐥𝐨 { }
 
-🍿Welcome to the largest movies and series search engine on the net!</a>
+🍿Welcome to the largest movies and series search engine on the net!
 
 👻 Send me a movie or series name to search...🍳
 
