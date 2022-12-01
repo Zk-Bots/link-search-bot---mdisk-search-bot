@@ -12,11 +12,11 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     DATABASE_URL = os.environ.get("DATABASE_URL")
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
-    ABOUT_BOT_TEXT = """<b>This is Link Search Bot.
+    ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
     
     
     
-🤖 My Name: <a href='https://t.me/Botfather'>Lin Search Bot</a>
+🤖 My Name: <a href='https://t.me/search_mdisk_bot'>Mdisk Search Bot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -27,39 +27,30 @@ class Config(object):
 👨‍💻 Created By: <a href='https://t.me/GreyMatter_Bot'>GreyMatter's Bot</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>Donation</b>
-<b>Thanks for showing interest in donation
-Donate Us To Keep Alive
-Continously Alive
-
-You Can Send Any Amount
-Donate Only One Rupee
-Of 10₹,20₹,30₹,50₹,100₹ 😁
-
-💸Payment Methods:
-Only UPI
-UPI:-</b> greymatter658@ybl
--<b> <a href=https://www.telegram.dog/greymatters_about>Donation Link</a></b>
+    ABOUT_HELP_TEXT = """<b>Help</b>
+<b>Join our Group @mx_movie_request</b>
 """
 
     HOME_TEXT = """
 <b>Hey! {}😅,
 
-I'm Link Search Bot.🤖</a>
+I'm Mdisk Search Bot.🤖</a>
 
 I Can Search 🔍 What You Want❗
 
-<a>Made With ❤ By @GreyMatter_Bots</a></b>
+<a>Made With ❤ By @MX_Networks</a></b>
 """
 
 
     START_MSG = """
-<b>Hey! {}😅,
+<b>𝐇𝐞𝐥𝐥𝐨 { }
 
-I'm Link Search Bot.🤖</a>
+🍿Welcome to the largest movies and series search engine on the net!
 
-I Can Search 🔍 What You Want❗
+👻 Send me a movie or series name to search...🍳
 
-<a>Made With ❤ By @GreyMatter_Bots</a></b>
+👉 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐥𝐬𝐨 𝒂𝒅𝒅 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐧 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔 𝐰𝐢𝐭𝐡 𝒚𝒐𝒖𝒓 𝒍𝒊𝒏𝒌𝒔.
+
+📌 For More Info :- @Ayita_P_S</b>
 """
 
