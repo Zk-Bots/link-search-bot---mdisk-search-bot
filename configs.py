@@ -45,12 +45,12 @@ I Can Search 🔍 What You Want❗
     START_MSG = """
 <b>𝐇𝐞𝐥𝐥𝐨 { }
 
-🍿Welcome to the largest movies and series search engine on the net!
+🍿Welcome to the largest movies and series search engine on the net!</a>
 
 👻 Send me a movie or series name to search...🍳
 
 👉 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐥𝐬𝐨 𝒂𝒅𝒅 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐧 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔 𝐰𝐢𝐭𝐡 𝒚𝒐𝒖𝒓 𝒍𝒊𝒏𝒌𝒔.
 
-📌 For More Info :- @Ayita_P_S</b>
+<a>📌 For More Info :- @Ayita_P_S</a></b>
 """
 
