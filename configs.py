@@ -43,7 +43,7 @@ I Can Search 🔍 What You Want❗
 
 
     START_MSG = """
-<b>𝐇𝐞𝐥𝐥𝐨 { }
+<b>𝐇𝐞𝐥𝐥𝐨 {}
 
 🍿Welcome to the largest movies and series search engine on the net!
 
