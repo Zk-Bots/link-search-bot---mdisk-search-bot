@@ -43,14 +43,11 @@ I Can Search 🔍 What You Want❗
 
 
     START_MSG = """
-<b>𝐇𝐞𝐥𝐥𝐨 {}
+<b>Hey! {}😅,
 
-🍿Welcome to the largest movies and series search engine on the net!
+I'm Link Search Bot.🤖
 
-👻 Send me a movie or series name to search...🍳
+I Can Search 🔍 What You Want❗
 
-👉 𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐥𝐬𝐨 𝒂𝒅𝒅 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐧 𝒚𝒐𝒖𝒓 𝒈𝒓𝒐𝒖𝒑𝒔 𝐰𝐢𝐭𝐡 𝒚𝒐𝒖𝒓 𝒍𝒊𝒏𝒌𝒔.
-
-<a>📌 For More Info :- @Ayita_P_S</a></b>
+<a>Made With ❤ By @MX_Networks</a></b>
 """
-
