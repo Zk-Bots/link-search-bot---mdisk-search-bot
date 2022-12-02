@@ -26,8 +26,8 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/19eeb26fa2ce58765917a.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-					[InlineKeyboardButton('❤ Join Our Group', url='https://t.me/mx_movie_request')],
-					[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks")],
+					[InlineKeyboardButton('Our Group', url='https://t.me/mx_movie_request')],
+					[InlineKeyboardButton("Our 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks")],
 					[InlineKeyboardButton("Help", callback_data="Help_msg"),
                                         InlineKeyboardButton("About", callback_data="About_msg")]
 				]))
@@ -37,8 +37,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-		[InlineKeyboardButton('❤ Join Our Group', url='https://t.me/mx_movie_request')
-	 ],[InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks"), 
+		[InlineKeyboardButton('Our Group', url='https://t.me/mx_movie_request')
+	 ],[InlineKeyboardButton("Our 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks"), 
              InlineKeyboardButton("𝙰𝚋𝚘𝚞𝚝", callback_data="About_msg")]
         ])
     )
@@ -76,10 +76,8 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton('❤ Join Our Group', url='https://t.me/mx_movie_request')
-					],
-					[
-						InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks")
+						InlineKeyboardButton('Our Group', url='https://t.me/mx_movie_request')
+					        InlineKeyboardButton("Our 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks")
 					],
 					[
 						InlineKeyboardButton("Home", callback_data="gohome")
@@ -95,10 +93,8 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-					InlineKeyboardButton('❤ Join Our Group', url='https://t.me/mx_movie_request')
-					],
-					[
-					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks")
+					InlineKeyboardButton('Our Group', url='https://t.me/mx_movie_request')
+					InlineKeyboardButton("Our 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks")
 					], 
                                         [
 					InlineKeyboardButton("Home", callback_data="gohome"),
@@ -115,10 +111,8 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
                                         [
-					InlineKeyboardButton('❤ Join Our Group', url='https://t.me/mx_movie_request')
-					],
-					[
-					InlineKeyboardButton("Updates 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks")
+					InlineKeyboardButton('Our Group', url='https://t.me/mx_movie_request')
+					InlineKeyboardButton("Our 𝙲𝚑𝚊𝚗𝚗𝚊𝚕", url="https://t.me/MX_Networks")
 					],
 					[
 					InlineKeyboardButton("Help", callback_data="Help_msg"),
@@ -137,4 +131,4 @@ idle()
 # After Disconnects,
 # Stop Clients
 Bot.stop()
-User.stop()
+User.stop()						
