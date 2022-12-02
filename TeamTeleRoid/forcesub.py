@@ -45,7 +45,7 @@ async def ForceSub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Somthing Went Wrong. Contact My [@Ayita_P_S](https://telegram.dog/Ayita_P_S).",
+            text="Somthing Went Wrong. Please Contact Our Owner [@Ayita_P_S](https://telegram.dog/Ayita_P_S).",
             parse_mode="markdown",
             disable_web_page_preview=True
         )
